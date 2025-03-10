@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B02248352D7EF86100BBCE15 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B02248342D7EF86100BBCE15 /* IQKeyboardManagerSwift */; };
+		B02248372D7EF97D00BBCE15 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = B02248362D7EF97D00BBCE15 /* MBProgressHUD */; };
+		B02248392D7EF9D600BBCE15 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = B02248382D7EF9D600BBCE15 /* OpenSSL */; };
+		B022483C2D7EFABB00BBCE15 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = B022483B2D7EFABB00BBCE15 /* Collections */; };
+		B022483E2D7EFAEC00BBCE15 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = B022483D2D7EFAEC00BBCE15 /* Reachability */; };
+		B02248402D7EFB0800BBCE15 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B022483F2D7EFB0800BBCE15 /* RxCocoa */; };
+		B02248432D7EFC4600BBCE15 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B02248422D7EFC4600BBCE15 /* SDWebImage */; };
+		B02248452D7EFCC000BBCE15 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = B02248442D7EFCC000BBCE15 /* Starscream */; };
+		B02248472D7EFCF700BBCE15 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = B02248462D7EFCF700BBCE15 /* SwiftyGif */; };
+		B02248492D7EFCFC00BBCE15 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = B02248482D7EFCFC00BBCE15 /* Toast */; };
+		B022484C2D7EFD3D00BBCE15 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = B022484B2D7EFD3D00BBCE15 /* SVProgressHUD */; };
+		B09C06482D7B1BD400BA05E1 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B09C06472D7B1BD400BA05E1 /* FirebaseCore */; };
+		B09C064B2D7B1C7E00BA05E1 /* GULLogger in Frameworks */ = {isa = PBXBuildFile; productRef = B09C064A2D7B1C7E00BA05E1 /* GULLogger */; };
+		B09C06642D7EF1B200BA05E1 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = B09C06632D7EF1B200BA05E1 /* FirebaseInstallations */; };
+		B09C06662D7EF1B200BA05E1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B09C06652D7EF1B200BA05E1 /* FirebaseMessaging */; };
+		B09C06682D7EF1B200BA05E1 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = B09C06672D7EF1B200BA05E1 /* FirebaseRemoteConfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B08A1BD62D560F5E00F8BBB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +84,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09C06662D7EF1B200BA05E1 /* FirebaseMessaging in Frameworks */,
+				B09C06642D7EF1B200BA05E1 /* FirebaseInstallations in Frameworks */,
+				B02248402D7EFB0800BBCE15 /* RxCocoa in Frameworks */,
+				B02248492D7EFCFC00BBCE15 /* Toast in Frameworks */,
+				B09C06482D7B1BD400BA05E1 /* FirebaseCore in Frameworks */,
+				B02248392D7EF9D600BBCE15 /* OpenSSL in Frameworks */,
+				B02248372D7EF97D00BBCE15 /* MBProgressHUD in Frameworks */,
+				B02248432D7EFC4600BBCE15 /* SDWebImage in Frameworks */,
+				B09C064B2D7B1C7E00BA05E1 /* GULLogger in Frameworks */,
+				B022483C2D7EFABB00BBCE15 /* Collections in Frameworks */,
+				B02248472D7EFCF700BBCE15 /* SwiftyGif in Frameworks */,
+				B022483E2D7EFAEC00BBCE15 /* Reachability in Frameworks */,
+				B022484C2D7EFD3D00BBCE15 /* SVProgressHUD in Frameworks */,
+				B09C06682D7EF1B200BA05E1 /* FirebaseRemoteConfig in Frameworks */,
+				B02248452D7EFCC000BBCE15 /* Starscream in Frameworks */,
+				B02248352D7EF86100BBCE15 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +126,7 @@
 				B08A1BC72D560F5900F8BBB8 /* basic_app */,
 				B08A1BD82D560F5E00F8BBB8 /* basic_appTests */,
 				B08A1BE22D560F5E00F8BBB8 /* basic_appUITests */,
+				B09C06462D7B1BD400BA05E1 /* Frameworks */,
 				B08A1BC62D560F5900F8BBB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +139,13 @@
 				B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B09C06462D7B1BD400BA05E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +168,22 @@
 			);
 			name = basic_app;
 			packageProductDependencies = (
+				B09C06472D7B1BD400BA05E1 /* FirebaseCore */,
+				B09C064A2D7B1C7E00BA05E1 /* GULLogger */,
+				B09C06632D7EF1B200BA05E1 /* FirebaseInstallations */,
+				B09C06652D7EF1B200BA05E1 /* FirebaseMessaging */,
+				B09C06672D7EF1B200BA05E1 /* FirebaseRemoteConfig */,
+				B02248342D7EF86100BBCE15 /* IQKeyboardManagerSwift */,
+				B02248362D7EF97D00BBCE15 /* MBProgressHUD */,
+				B02248382D7EF9D600BBCE15 /* OpenSSL */,
+				B022483B2D7EFABB00BBCE15 /* Collections */,
+				B022483D2D7EFAEC00BBCE15 /* Reachability */,
+				B022483F2D7EFB0800BBCE15 /* RxCocoa */,
+				B02248422D7EFC4600BBCE15 /* SDWebImage */,
+				B02248442D7EFCC000BBCE15 /* Starscream */,
+				B02248462D7EFCF700BBCE15 /* SwiftyGif */,
+				B02248482D7EFCFC00BBCE15 /* Toast */,
+				B022484B2D7EFD3D00BBCE15 /* SVProgressHUD */,
 			);
 			productName = basic_app;
 			productReference = B08A1BC52D560F5900F8BBB8 /* basic_app.app */;
@@ -208,6 +267,22 @@
 			);
 			mainGroup = B08A1BBC2D560F5900F8BBB8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B09C06412D79C47300BA05E1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				B09C06422D79C54600BA05E1 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				B09C06432D79C55800BA05E1 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+				B09C06442D79C62A00BA05E1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B09C06492D7B1C6800BA05E1 /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
+				B09C065F2D7B1EA400BA05E1 /* XCRemoteSwiftPackageReference "Starscream" */,
+				B09C06602D7B241500BA05E1 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+				B09C06612D7CCCCF00BA05E1 /* XCRemoteSwiftPackageReference "OpenSSL" */,
+				B09C06622D7EF15B00BA05E1 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				B02248332D7EF85700BBCE15 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				B022483A2D7EFA8B00BBCE15 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				B02248412D7EFC3300BBCE15 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				B022484A2D7EFD2900BBCE15 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B08A1BC62D560F5900F8BBB8 /* Products */;
 			projectDirPath = "";
@@ -418,12 +493,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app6.spm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,12 +524,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app6.spm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -573,6 +650,204 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B02248332D7EF85700BBCE15 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		B022483A2D7EFA8B00BBCE15 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+		B02248412D7EFC3300BBCE15 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+		B022484A2D7EFD2900BBCE15 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		B09C06412D79C47300BA05E1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		B09C06422D79C54600BA05E1 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.10;
+			};
+		};
+		B09C06432D79C55800BA05E1 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B09C06442D79C62A00BA05E1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B09C06492D7B1C6800BA05E1 /* XCRemoteSwiftPackageReference "GoogleUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleUtilities.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B09C065F2D7B1EA400BA05E1 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+		B09C06602D7B241500BA05E1 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.5;
+			};
+		};
+		B09C06612D7CCCCF00BA05E1 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.2000;
+			};
+		};
+		B09C06622D7EF15B00BA05E1 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B02248342D7EF86100BBCE15 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B02248332D7EF85700BBCE15 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		B02248362D7EF97D00BBCE15 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06412D79C47300BA05E1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		B02248382D7EF9D600BBCE15 /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06612D7CCCCF00BA05E1 /* XCRemoteSwiftPackageReference "OpenSSL" */;
+			productName = OpenSSL;
+		};
+		B022483B2D7EFABB00BBCE15 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B022483A2D7EFA8B00BBCE15 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		B022483D2D7EFAEC00BBCE15 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06432D79C55800BA05E1 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
+		};
+		B022483F2D7EFB0800BBCE15 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06442D79C62A00BA05E1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B02248422D7EFC4600BBCE15 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B02248412D7EFC3300BBCE15 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B02248442D7EFCC000BBCE15 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C065F2D7B1EA400BA05E1 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		B02248462D7EFCF700BBCE15 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06602D7B241500BA05E1 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		B02248482D7EFCFC00BBCE15 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06622D7EF15B00BA05E1 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		B022484B2D7EFD3D00BBCE15 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B022484A2D7EFD2900BBCE15 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+		B09C06472D7B1BD400BA05E1 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B09C064A2D7B1C7E00BA05E1 /* GULLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06492D7B1C6800BA05E1 /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULLogger;
+		};
+		B09C06632D7EF1B200BA05E1 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		B09C06652D7EF1B200BA05E1 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B09C06672D7EF1B200BA05E1 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09C06452D7B12B000BA05E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B08A1BBD2D560F5900F8BBB8 /* Project object */;
 }
